@@ -1,14 +1,14 @@
 package week1;
 
 public class Customer {
-
+    private String name;
     private String address;
     private String phone;
-    
+
     public Customer(){
 
     }
-    public void SetName(String name){
+    public void setName(String name){
         this.name = name;
     }
     public void setAddress(String address){
